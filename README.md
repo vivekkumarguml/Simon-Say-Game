@@ -31,14 +31,6 @@ A fun and interactive **"Simon Says"** game built using HTML, CSS, and JavaScrip
 
 ![Simon Game Screenshot](./image.png)
 
-## ✅ TODOs / Possible Enhancements
-
-- Save high score using `localStorage` for persistence.
-- Add audio feedback for each color.
-- Add a start/reset button instead of relying on keypress.
-- Make the layout mobile responsive.
-- Display current and highest scores more elegantly.
-
 ## 📬 How to Run
 
 Just open `Mini_Project.html` in your browser. No additional dependencies or build steps required!
