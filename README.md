@@ -1,59 +1,44 @@
-🕹️ Simon Says Game
-A fun and interactive "Simon Says" game built using HTML, CSS, and JavaScript. The game generates a sequence of colors that the player must memorize and repeat. With each successful level, the sequence gets longer. The game ends when the player makes a mistake.
 
-📁 Project Structure
-bash
-Copy
-Edit
-📦SimonSayGame
- ┣ 📄 Mini_Project.html   # HTML structure for the game
- ┣ 📄 Mini_Project.css    # Styling for buttons and animations
- ┗ 📄 Mini_Project.js     # JavaScript game logic
-🎮 How to Play
-Open the Mini_Project.html file in any modern web browser.
+# 🕹️ Simon Says Game
 
-Press any key to start the game.
+A fun and interactive **"Simon Says"** game built using HTML, CSS, and JavaScript. The game generates a sequence of colors that the player must memorize and repeat. With each successful level, the sequence gets longer. The game ends when the player makes a mistake.
 
-Watch the color sequence flash on the screen.
 
-Repeat the sequence by clicking the colored buttons in the same order.
+## 🎮 How to Play
 
-If you repeat correctly, you advance to the next level.
+1. Open the `Mini_Project.html` file in any modern web browser.
+2. Press any key to start the game.
+3. Watch the color sequence flash on the screen.
+4. Repeat the sequence by clicking the colored buttons in the same order.
+5. If you repeat correctly, you advance to the next level.
+6. If you make a mistake, the game ends, and your score is displayed.
 
-If you make a mistake, the game ends, and your score is displayed.
+## 🧠 Features
 
-🧠 Features
-Dynamic color sequence generation.
+- Dynamic color sequence generation.
+- Button animations for both game and user actions.
+- Real-time input verification.
+- Level tracking and high score saving (within the session).
+- Smooth UI feedback (flashing buttons, background color changes on game over).
 
-Button animations for both game and user actions.
+## 🛠️ Technologies Used
 
-Real-time input verification.
+- **HTML** – for layout and structure.
+- **CSS** – for styling buttons and animations.
+- **JavaScript** – for game logic and DOM manipulation.
 
-Level tracking and high score saving (within the session).
+## 📸 Screenshot
 
-Smooth UI feedback (flashing buttons, background color changes on game over).
+![Simon Game Screenshot](./image.png)
 
-🛠️ Technologies Used
-HTML – for layout and structure.
+## ✅ TODOs / Possible Enhancements
 
-CSS – for styling buttons and animations.
+- Save high score using `localStorage` for persistence.
+- Add audio feedback for each color.
+- Add a start/reset button instead of relying on keypress.
+- Make the layout mobile responsive.
+- Display current and highest scores more elegantly.
 
-JavaScript – for game logic and DOM manipulation.
+## 📬 How to Run
 
-📸 Screenshot
-
-Note: Screenshot auto-generated from your provided image.
-
-✅ TODOs / Possible Enhancements
-Save high score using localStorage for persistence.
-
-Add audio feedback for each color.
-
-Add a start/reset button instead of relying on keypress.
-
-Make the layout mobile responsive.
-
-Display current and highest scores more elegantly.
-
-📬 How to Run
-Just open Mini_Project.html in your browser. No additional dependencies or build steps required!
+Just open `Mini_Project.html` in your browser. No additional dependencies or build steps required!
